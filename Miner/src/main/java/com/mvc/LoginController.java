@@ -8,6 +8,10 @@ public class LoginController {
 	public String display() {
 		return "display";
 	}
+	@RequestMapping("/register")
+	public String register() {
+		return "register";
+	}
 	
 	
 	
